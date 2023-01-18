@@ -1,0 +1,346 @@
+/* Start Slider */
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 140px;
+    z-index: 1;
+    color: #fff;
+    max-width: 600px;
+    transform: translateY(-50%);
+}
+.caption h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 0.5s ease-in-out;
+}
+.caption h1 span {
+    display: block;
+    color: #2d3e50;
+}
+.caption p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 30px 0;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.5s ease-in-out;
+}
+.caption .btn {
+    padding: 0;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 0;
+    width: 150px;
+    height: 40px;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.5s ease-in-out;
+}
+.caption .btn:hover {
+    background: #2d3e50;
+    border-color: #2d3e50;
+}
+/* End Slider */
+
+/* Start the best */
+.th-pattrenone {
+    padding: 80px 0;
+}
+
+.th-pattrenone .th-sectionhead {
+    max-width: 700px;
+    padding-bottom: 45px;
+    margin: 0 !important;
+    text-align: start !important;
+}
+
+.th-pattrenone .th-sectionhead .th-sectiontitle {
+    padding-bottom: 30px;
+}
+
+.th-pattrenone .th-sectionhead .th-sectiontitle h2 {
+    margin: 0;
+    color: #2d3e50;
+    font-size: 36px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.th-pattrenone .th-sectionhead .th-sectiontitle h2 span {
+    color: #00adef;
+}
+
+.th-pattrenone .th-sectionhead .th-description p {
+    margin: 0;
+    color: #888888;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.th-features .th-feature .th-featurehead {
+    display: flex;
+    align-items: center;
+}
+
+.th-features .th-feature .th-featurehead .th-featureicon {
+    font-size: 45px;
+    color: #00adef;
+    margin-right: 10px;
+}
+
+.th-features .th-feature .th-featurehead .th-featuretitle h3 {
+    margin: 0;
+    font-size: 22px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.th-features .th-feature .th-featurehead .th-featuretitle h3 a {
+    color: #373542;
+    line-height: 1.2;
+    transition: all 0.3s ease-in-out;
+}
+
+.th-features .th-feature .th-featurehead .th-featuretitle h3:hover a {
+    color: #00adef;
+}
+
+/* Start About Us */
+.about-us {
+    background-color: #00adef;
+    color: #fff;
+}
+.about-us img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-content {
+    padding: 80px 0;
+    max-width: 650px;
+}
+.about-content h2 {
+    margin: 0;
+    color: #2d3e50;
+    font-size: 36px;
+    line-height: 28px;
+    font-weight: bold;
+    padding: 0 0 30px;
+}
+.about-content h2 span {
+    color: #fff;
+}
+.about-content p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+/* End About Us */
+
+/* Start Features */
+.th-sectionspace {
+    padding: 80px 0;
+}
+
+.th-sectionspace .th-sectionhead {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+.th-services {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.th-services .th-service {
+    width: 33.33%;
+    padding: 40px;
+}
+
+.th-services .th-service:not(:last-child) {
+    border-right: 1px solid #c2c7cd;
+}
+
+.th-services .th-service .th-serciceicon i {
+    font-size: 40px;
+    line-height: 40px;
+    color: #00adef;
+}
+
+.th-services .th-service .th-servicetitle {
+    padding: 30px 0 0;
+}
+.th-services .th-service .th-servicetitle h3 a {
+    margin: 0;
+    color: #394e64;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 21px;
+    transition: all 0.3s ease-in-out;
+}
+.th-services .th-service .th-servicetitle:hover h3 a {
+    color: #00adef;
+}
+/* End Features */
+
+/* Satrt Statistics */
+.statistics {
+    padding: 80px 0;
+    color: #fff;
+    background-color: #00adef;
+}
+.th-counters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.th-counter {
+    padding: 0 15px;
+    position: relative;
+    max-width: 365px;
+    width: 100%;
+}
+.th-countericon {
+    top: 20px;
+    right: -22px;
+    color: #fff;
+    width: 72px;
+    z-index: 2;
+    height: 72px;
+    padding: 4px;
+    display: block;
+    font-size: 38px;
+    position: absolute;
+    text-align: center;
+}
+.th-countericon i {
+    display: block;
+    line-height: 62px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+}
+.th-counterbox {
+    padding: 30px 50px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+}
+.th-countertitle {
+    padding: 0 0 20px;
+}
+.th-countertitle h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 23px;
+    line-height: 26px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.th-count h3 {
+    margin: 0;
+    color: #2d3e50;
+    font-size: 38px;
+    line-height: 30px;
+    font-weight: bold;
+    position: relative;
+    padding: 0 26px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: capitalize;
+}
+/* End Statistics */
+
+@media(max-width: 1024px) {
+    .caption {
+        left: 50px;
+    }
+}
+
+@media(max-width: 991px) {
+    .th-features .th-feature {
+        margin-bottom: 20px;
+    }
+    .about-content {
+        padding: 40px;
+        max-width: 100%;
+    }
+    .th-services {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .th-services .th-service {
+        margin: 10px;
+        width: 50%;
+        border: 1px solid #c2c7cd;
+    }
+    .th-counters {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .th-counters .th-counter {
+        width: 50%;
+        margin: 10px;
+    }
+}
+
+@media(max-width: 767px) {
+    .caption {
+        left: 15px;
+    }
+    .caption h1 {
+        font-size: 30px;
+    }
+    .caption p {
+        font-size: 15px;
+        margin: 15px 0;
+    }
+    .th-pattrenone .th-sectionhead .th-sectiontitle h2 {
+        font-size: 25px;
+    }
+    .th-features .th-feature .th-featurehead .th-featuretitle h3 {
+        font-size: 16px;
+    }
+    .th-sectionspace {
+        padding: 40px 0;
+    }
+    .statistics {
+        padding: 60px 0 40px;
+    }
+    .about-content {
+        padding: 40px 15px;
+    }
+    .about-content h2 {
+        font-size: 25px;
+    }
+    .th-services .th-service,
+    .th-counters .th-counter {
+        width: 100%;
+    }
+    .th-services .th-service {
+        padding: 20px;
+    }
+    .th-countericon {
+        top: -38px;
+        right: 0 !important;
+        left: 0;
+        margin: auto !important;
+    }
+    .th-counterbox {
+        padding: 40px 30px 30px;
+        text-align: center;
+    }
+    .th-countertitle h2 {
+        font-size: 20px;
+    }
+    .th-counter:not(:last-child) {
+        margin-bottom: 40px !important;
+    }
+    .th-count h3 {
+        font-size: 25px;
+        padding: 0;
+    }
+}

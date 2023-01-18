@@ -1,0 +1,92 @@
+<!-- Start Header -->
+<!-- <div class="overlay" (click)="collapsToggle()" [ngClass]="isMenuOpen ? 'show': ''"></div> -->
+
+<header id="th-header" class="th-header th-haslayout">
+    <div class="th-topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-12 n-col">
+                    <strong class="th-logo">
+                        <a href="index.html"><img src="assets/images/logo.png" alt="image description"></a>
+                    </strong>
+                    <div class="th-rightarea">
+                        <ul class="th-addressbox">
+                            <li>
+                                <span class="th-addressicon"><i class="fa fa-envelope"></i></span>
+                                <div class="th-addresscontent">
+                                  <strong class="mt-2"><a href="mailto:info@alruwadco.com">info@alruwadco.com</a></strong>
+                                  <!--<span>alruwadmed@gmail.com</span>-->
+                                </div>
+                            </li>
+                            <li>
+                                <span class="th-addressicon"><i class="fa fa-phone"></i></span>
+                                <div class="th-addresscontent">
+                                  <strong>05022102423</strong>
+                                  <span>01113000659</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="th-addressicon" style="cursor: pointer;">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>
+                                </span>
+                                <div class="th-addresscontent">
+                                    <strong style="line-height: 43px;">{{'العربيه' }}</strong>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="th-navigationarea">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav id="th-nav" class="th-nav">
+                        <div class="mob-collaps" (click)="collapsToggle()" [ngClass]="isMenuOpen ? 'show': ''">
+                            <span></span><span></span><span></span></div>
+                        <div id="th-navigation" class="collapse navbar-collapse th-navigation show">
+                            <ul>
+                                <li [routerLinkActive]="['th-active']" [routerLinkActiveOptions]="{ exact: true }" class="th-hasdropdown ">
+                                    <a [routerLink]="['/home']">{{ "HOME"   }}</a>                                    
+                                </li>
+                                <li [routerLinkActive]="['th-active']" [routerLinkActiveOptions]="{ exact: true }" class="th-hasdropdown">
+                                    <a [routerLink]="['/about-us']">{{ "ABOUTUS"   }}</a>
+                                    <ul class="th-menudropdown">
+                                        <li><a [routerLink]="['/about-us']">{{ "Introduction"   }}</a></li>
+                                        <li><a [routerLink]="['/about-us']">{{ "VisionMission"   }}</a></li>                                                                                
+                                        <li><a [routerLink]="['/about-us']">{{ "OurTeam"   }}</a></li>                                                                                
+                                    </ul>
+                                </li>
+                                <li [routerLinkActive]="['th-active']" [routerLinkActiveOptions]="{ exact: true }" class="th-hasdropdown">
+                                    <a href="javascript:void(0);">{{ "OURDIVISIONS"   }}</a>
+                                    <ul class="th-menudropdown">
+                                        <li><a [routerLink]="['/pharmaceutical']">{{ "Pharmaceuticals"   }}</a></li>
+                                        <li><a [routerLink]="['/consumer-care']">{{ "ConsumerCare"   }}</a></li>                                                                                
+                                    </ul>
+                                </li>
+                                <!--<li [routerLinkActive]="['th-active']" [routerLinkActiveOptions]="{ exact: true }" class="th-hasdropdown">
+                                    <a [routerLink]="['/brand-partners']">{{ "BrandPartners"   }}</a>
+                                    <ul class="th-menudropdown">
+                                        <li><a [routerLink]="['/be-our-partner']">{{ "BeOurPartner"   }}</a></li>                                        
+                                    </ul>
+                                </li>-->
+                                <li [routerLinkActive]="['th-active']" [routerLinkActiveOptions]="{ exact: true }" class="th-hasdropdown">
+                                    <a [routerLink]="['/channels']">{{ "Channels"   }}</a>                                    
+                                </li>
+                                <!--<li [routerLinkActive]="['th-active']" [routerLinkActiveOptions]="{ exact: true }" class="th-hasdropdown">
+                                    <a [routerLink]="['/careers']">{{ "Careers"   }}</a>                                    
+                                </li>-->
+                                <li [routerLinkActive]="['th-active']" [routerLinkActiveOptions]="{ exact: true }" class="th-hasdropdown">
+                                    <a [routerLink]="['/contact-us']">{{ "Contact"   }}</a>                                   
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End Header -->

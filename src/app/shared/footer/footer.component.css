@@ -1,0 +1,184 @@
+.th-footermiddlebox {
+    padding: 80px 0;
+    overflow: hidden;
+    background-color: rgb(0 0 0 / 85%);
+}
+.th-fcols,
+.th-fcol {
+    color: #dbdbdb;
+}
+.th-fcol .th-logo {
+    margin: 0 0 40px;
+    display: block;
+}
+.th-faddressinfo {
+    width: 100%;
+    float: left;
+    color: #dbdbdb;
+    list-style: none;
+    font-size: 14px;
+    line-height: 17px;
+}
+.th-faddressinfo li {
+    width: 100%;
+    float: left;
+    line-height: inherit;
+    list-style-type: none;
+    transition: all 0.3s ease-in-out;
+}
+.th-faddressinfo li + li {
+    padding: 20px 0 0;
+}
+.th-faddressinfo li .th-addressicon {
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 0;
+    line-height: 48px;
+    margin: 0 15px 0 0;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+}
+.th-faddressinfo li .th-addressicon i {
+    color: #dbdbdb;
+    display: block;
+    line-height: inherit;
+}
+.th-faddressinfo li address {
+    margin: 5px 0;
+    overflow: hidden;
+    font-style: normal;
+}
+.th-faddressinfo li .th-phone {
+    margin: 5px 0;
+    overflow: hidden;
+    line-height: 20px;
+}
+.th-faddressinfo li .th-phone span {
+    display: block;
+    line-height: inherit;
+}
+.th-faddressinfo li a {
+    color: #dbdbdb;
+}
+.th-borderheading {
+    width: 100%;
+    float: left;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    position: relative;
+}
+.th-faddressinfo li span,
+.th-faddressinfo li div,
+.th-faddressinfo li div a,
+.th-faddressinfo li address {
+    transition: all 0.3s ease-in-out;
+}
+.th-faddressinfo li:hover div,
+.th-faddressinfo li:hover div a,
+.th-faddressinfo li:hover address {
+    color: #00adef;
+}
+.th-faddressinfo li:hover span:first-child {
+    border-color: #00adef;
+}
+.th-borderheading:before {
+    top: 100%;
+    left: 0;
+    width: 70px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #00adef;
+}
+.th-borderheading h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 21px;
+    line-height: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.th-fcol .th-socialicons {
+    width: 100%;
+    float: left;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.th-socialiconsround li a {
+    width: 36px;
+    height: 36px;
+    color: #dbdbdb;
+    line-height: 34px;
+    border-radius: 50%;
+    border: 1px solid #dbdbdb;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.th-socialiconsround li a i {
+    line-height: 34px;
+}
+.th-socialiconsround li a:hover,
+.th-socialiconsround li a:hover {
+    color: #fff !important;
+    background-color: #00adef;
+}
+.th-usefullinks {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    line-height: 17px;
+    list-style: none;
+}
+.th-usefullinks li {
+    width: 100%;
+    float: left;
+    line-height: inherit;
+    list-style-type: none;
+    transition: all 0.3s ease-in-out;
+}
+.th-usefullinks li + li {
+    padding: 20px 0 0;
+}
+.th-usefullinks li a {
+    color: #dbdbdb;
+    display: block;
+    position: relative;
+    padding: 0 0 0 25px;
+    transition: all 0.3s ease-in-out;
+}
+.th-usefullinks li a:before {
+    top: 1px;
+    left: 0;
+    content: "\f08a";
+    font-size: 14px;
+    line-height: 17px;
+    position: absolute;
+    font-family: "FontAwesome";
+}
+.th-usefullinks li:hover a {
+    color: #00adef;
+}
+.th-footerbottombar {
+    background-color: #00adef;
+    padding: 15px;
+}
+.th-copyright {
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+
+@media(max-width: 767px) {
+    .th-footermiddlebox {
+        padding: 40px 0;
+    }
+    .th-faddressinfo,
+    .th-fcol .th-socialicons {
+        margin-bottom: 40px;
+    }
+}
