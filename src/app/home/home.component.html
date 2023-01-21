@@ -23,7 +23,7 @@
 
     <ng-container *ngFor="let img of Images">
       <ng-template carouselSlide [id]="img.id">
-        <img [src]="img.src" style="height:500px;width:100%">
+        <img src="{{ 'assets/images' + img.src }}" style="height:500px;width:100%">
       </ng-template>
     </ng-container>
 
@@ -224,7 +224,7 @@
 
         <ng-container *ngFor="let logo of sponsors">
           <ng-template carouselSlide [id]="logo.id">
-            <img [src]="logo.src">
+            <img src="{{ 'assets/images' + logo.src }}">
           </ng-template>
         </ng-container>
 

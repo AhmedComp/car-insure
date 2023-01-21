@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  Images = [{ id: "1", src: '../assets/images/slider2.jpg' }, { id: "3", src: '../assets/images/slider1.jpg' }, { id: "2", src: '../assets/images/slider3.jpg' }];
+  Images = [{ id: "1", src: '/slider2.jpg' }, { id: "3", src: '/slider1.jpg' }, { id: "2", src: '/slider3.jpg' }];
 
   SlideOptions = {
     items: 1,
@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
 
 
   //sponsors = ['../assets/images/logo1.png', '../assets/images/logo2.png', '../assets/images/logo3.png', '../assets/images/logo4.png', '../assets/images/logo5.png'];
-  sponsors = [{ id: "1", src: '../assets/images/spon1.png' }, { id: "2", src: '../assets/images/spon2.png' }, { id: "3", src: '../assets/images/spon3.png' }, { id: "4", src: '../assets/images/spon4.png' }];
+  sponsors = [{ id: "1", src: '/spon1.png' }, { id: "2", src: '/spon2.png' }, { id: "3", src: '/spon3.png' }, { id: "4", src: '/spon4.png' }];
   CarouselOptions = {
     items: 2,
     dots: false,
