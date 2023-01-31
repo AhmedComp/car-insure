@@ -23,7 +23,7 @@
 
     <ng-container *ngFor="let img of Images">
       <ng-template carouselSlide [id]="img.id">
-        <img src="{{ 'assets/images' + img.src }}" style="height:500px;width:100%">
+        <img src="{{ 'assets/images' + img.src }}" style="height:450px;width:100%">
       </ng-template>
     </ng-container>
 
@@ -141,13 +141,13 @@
   </section>
   <!-- End About -->
   <!-- Start Services -->
-  <section class="th-sectionspace th-haslayout">
+  <section class="th-sectionspace th-haslayout" style="background-color:#262626">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="th-sectionhead" style="max-width: fit-content;margin-bottom: 12px !important;">
             <div class="th-sectiontitle">
-              <h2>WHY BUY YOUR AUTO INSURANCE <span>THROUGH US?</span></h2>
+              <h2 style="color:white">WHY BUY YOUR AUTO INSURANCE <span>THROUGH US?</span></h2>
             </div>
             <div class="th-description">
               <p>
@@ -160,7 +160,8 @@
           <div class="th-services">
             <div class="th-service">
               <span class="th-serciceicon">
-                <i class="fa fa-clock-o"></i>
+                <!--<i class="fa fa-clock-o"></i>-->
+                <img src="assets/images/img1.jpg" style="width:100%" alt="">
               </span>
               <div class="th-servicetitle">
                 <h3><a href="#">The process takes minutes and you get instant quotes online</a></h3>
@@ -168,7 +169,8 @@
             </div>
             <div class="th-service">
               <span class="th-serciceicon">
-                <i class="fa fa-search"></i>
+                <!--<i class="fa fa-search"></i>-->
+                <img src="assets/images/img2.jpg" style="width:100%" alt="">
               </span>
               <div class="th-servicetitle">
                 <h3><a href="#">Compare quotes online and find the policy that’s right for you</a></h3>
@@ -176,7 +178,8 @@
             </div>
             <div class="th-service" style="padding:38px !important">
               <span class="th-serciceicon">
-                <i class="fa fa-support"></i>
+                <!--<i class="fa fa-support"></i>-->
+                <img src="assets/images/img3.jpg" style="width:100%" alt="">
               </span>
               <div class="th-servicetitle">
                 <h3><a href="#">If you need help our insurance advisors can offer assistance by phone or email</a></h3>

@@ -12,9 +12,9 @@ body {
 	overflow-x: hidden;
 }
 body {
-	color: #373542;
-	background: #fff;
-	font: 400 14px/20px "Open Sans", Arial, Helvetica, sans-serif;
+  color: #373542;
+  background: #e3e5e4;
+  font: 400 14px/20px "Open Sans", Arial, Helvetica, sans-serif;
 }
 a:hover {
 	text-decoration: none;
