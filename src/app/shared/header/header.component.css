@@ -19,6 +19,11 @@
 	display: block;
 }
 
+.th-logo a img {
+	max-width: 100px;
+    border-radius: 10px;
+}
+
 .th-emails {
 	font-size: 14px;
 	list-style: none;

@@ -10,6 +10,11 @@
 .th-fcol .th-logo {
     display: block;
 }
+.th-fcol .th-logo img {
+	max-width: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
 .th-faddressinfo {
     width: 100%;
     color: #dbdbdb;
