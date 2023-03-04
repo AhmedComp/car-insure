@@ -1,9 +1,12 @@
-button {
+.fix-top {
   position: fixed;
-  bottom: 5px;
-  right: 5px;
+  bottom: 10px;
+  right: 10px;
   font-size: 20px;
   text-align: center;
   border-radius: 5px;
   outline: none;
+  border: 0;
+  width: 70px;
+  height: 70px;
 }
